@@ -30,4 +30,4 @@ reset=$(tput sgr0)
 source "$HOME/git-completion.sh"
 export PS1='\[$red$bold\]\u@\h \[$blue\]\W\[$green\]$(__git_ps1)\[$reset\]\$ '
 
-export PATH=/Users/lucas/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/lucas/.vimpkg/bin
+export PATH=~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:~/.vimpkg/bin
