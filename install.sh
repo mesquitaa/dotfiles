@@ -55,4 +55,7 @@ homebrew_cleanup
 # copying other files
 copy_other_files
 
+# executing the last configurations
+last_stuff
+
 bot "All done! You might need to restart now :)"
