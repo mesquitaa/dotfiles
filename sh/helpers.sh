@@ -55,6 +55,14 @@ function copy_other_files() {
   ok
 }
 
+
+function last_stuff() {
+  action "instaling xcode-select..."
+
+  xcode-select --install
+  ok
+}
+
 function macos_tweaks() {
     read -r -p "do you want to run MacOS tweaks? [y|N] " response
 
